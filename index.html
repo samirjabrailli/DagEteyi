@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="az">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dağ Ətəyi — Ailənizin sevimli məkanı</title>
+<meta name="description" content="Dağ Ətəyi: mangal dönər, kabab, lahmacun, pizza və burger. Halallıqla xidmətinizdə. Çatdırılma pulsuz.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;800&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+
+<nav id="nav">
+  <div class="wrap nav-in">
+    <a href="#top" class="logo">Dağ<b>·</b><i>Ət</i>əyi</a>
+    <div class="links" id="links">
+      <a href="#kateqoriya">Mətbəx</a>
+      <a href="#menu">Menyu</a>
+      <a href="#haqqimizda">Haqqımızda</a>
+      <a href="#catdirilma">Çatdırılma</a>
+      <a href="#elaqe">Əlaqə</a>
+    </div>
+    <a class="btn btn-red" href="tel:+994708132202">📞 Sifariş et</a>
+    <button class="burger" id="burger" aria-label="Menyu"><span></span><span></span></button>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="badges">
+        <span class="badge g">✓ Halallıqla xidmətinizdə</span>
+        <span class="badge">🛵 Çatdırılma pulsuz</span>
+      </div>
+      <h1><span>Dağ</span> <em>Ət</em>əyi</h1>
+      <p>Ailənizin sevimli məkanı. Odunkömürü üzərində bişən mangal dönər, şirəli kabablar, təzə lahmacun və daha çox — hər gün təzə və halal.</p>
+      <div class="cta">
+        <a href="#menu" class="btn btn-red">Menyuya bax →</a>
+        <a href="tel:+994708132202" class="btn btn-ghost">📞 070 813 22 02</a>
+      </div>
+      <div class="stats">
+        <div><b>100%</b><span>Halal</span></div>
+        <div><b>Mangal</b><span>Odunkömürü ilə</span></div>
+        <div><b>0 ₼</b><span>Çatdırılma</span></div>
+      </div>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <div class="ring"></div>
+      <div class="disc"><img data-img="grill" alt="Mangalda bişən toyuq kababı və pomidor" style="object-position:40% 50%"></div>
+      <div class="chip a">🔥 Mangal dönər</div>
+      <div class="chip b">🥙 Təzə lavaş</div>
+      <div class="chip c">🍕 Pizza &amp; Burger</div>
+    </div>
+  </div>
+</header>
+
+<div class="marq" aria-hidden="true"><div>
+  <span>Mangal dönər</span><span>★</span><span>Kabab</span><span>★</span><span>Lahmacun</span><span>★</span><span>Pizza</span><span>★</span><span>Burger</span><span>★</span><span>Pide</span><span>★</span><span>Şirniyyat</span><span>★</span>
+  <span>Mangal dönər</span><span>★</span><span>Kabab</span><span>★</span><span>Lahmacun</span><span>★</span><span>Pizza</span><span>★</span><span>Burger</span><span>★</span><span>Pide</span><span>★</span><span>Şirniyyat</span><span>★</span>
+</div></div>
+
+<section id="kateqoriya">
+  <div class="wrap">
+    <span class="eyebrow">Mətbəximiz</span>
+    <h2>Hər dad üçün bir seçim</h2>
+    <p class="lead">Ənənəvi mangal ləzzətlərindən müasir fast-fooda qədər — bütün ailə üçün.</p>
+    <div class="cats">
+      <div class="cat reveal" data-go="Mangal Dönər"><span class="e">🥙</span><h3>Mangal Dönər</h3><p>Ət və toyuq dönər</p></div>
+      <div class="cat reveal" data-go="Kabab"><span class="e">🍢</span><h3>Kabab</h3><p>Közdə bişmiş</p></div>
+      <div class="cat reveal" data-go="Lahmacun"><span class="e">🫓</span><h3>Lahmacun</h3><p>Nazik və xırtıldayan</p></div>
+      <div class="cat reveal" data-go="Pide"><span class="e">🥖</span><h3>Pidələr</h3><p>Sobada bişmiş</p></div>
+      <div class="cat reveal" data-go="Burger"><span class="e">🍔</span><h3>Burger</h3><p>Şaurma və burgerlər</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="menu">
+  <div class="wrap">
+    <span class="eyebrow">Menyu</span>
+    <h2>Seçilmiş yeməklər</h2>
+    <p class="lead">Qiymətlər manatla (AZN) göstərilib.</p>
+    <div class="tabs" id="tabs"></div>
+    <div class="menu-grid" id="menuGrid"></div>
+
+    <div class="promo">
+      <div class="pcard r reveal"><h3>🥩 Ət (mangalda)</h3><div class="big">49 ₼</div><small>1 kq üçün</small></div>
+      <div class="pcard g reveal"><h3>🍗 Toyuq (mangalda)</h3><div class="big">29 ₼</div><small>1 kq üçün</small></div>
+    </div>
+    <div class="menu-photo reveal">
+      <img data-img="menu" data-zoom alt="Dağ Ətəyi çap olunmuş menyusu" loading="lazy">
+      <div><h3>Orijinal menyumuz</h3><p>Bütün yeməklər və qiymətlər çap olunmuş menyumuzda. Böyütmək üçün şəkilə klikləyin.</p><a class="btn btn-red" href="tel:+994708132202">📞 Sifariş et</a></div>
+    </div>
+    <p class="note">* Menyu və qiymətlər dəyişə bilər. Dəqiq məlumat üçün zəng edin.</p>
+  </div>
+</section>
+
+<section id="haqqimizda">
+  <div class="wrap about">
+    <div class="reveal">
+      <span class="eyebrow">Haqqımızda</span>
+      <h2>Ailəvi isti mühit, halal ləzzət</h2>
+      <p class="lead">Dağ Ətəyi — ailələr, dostlar və iş yoldaşları üçün rahat məkandır. Yeməklərimiz canlı odunkömürü üzərində hazırlanır, geniş və səliqəli zalımızda isə özünüzü evdəki kimi hiss edəcəksiniz.</p>
+      <div class="feat">
+        <div><span>✅</span><p><b>Halallıq</b><small>Bütün məhsullar halal standartlarına uyğundur.</small></p></div>
+        <div><span>🔥</span><p><b>Real mangal</b><small>Ət və toyuq közdə, sizin gözünüz qarşısında bişir.</small></p></div>
+        <div><span>🛋️</span><p><b>Müasir interyer</b><small>Yaşıl bitkilər, isti işıq və rahat oturacaqlar.</small></p></div>
+      </div>
+    </div>
+    <div class="mosaic reveal">
+      <button class="tile t1" data-zoom aria-label="Zalın görünüşü"><img data-img="interior" alt="Dağ Ətəyi restoranının daxili görünüşü" loading="lazy"><span>Geniş və rahat zal</span></button>
+      <button class="tile" data-zoom aria-label="Giriş"><img data-img="front" alt="Dağ Ətəyi girişi" loading="lazy" style="object-position:50% 22%"><span>Girişimiz</span></button>
+      <button class="tile" data-zoom aria-label="Mangal"><img data-img="grill" alt="Canlı mangal" loading="lazy"><span>Canlı mangal</span></button>
+    </div>
+  </div>
+</section>
+
+<section id="catdirilma" style="padding-top:0">
+  <div class="wrap">
+    <div class="deliv reveal">
+      <div style="position:relative;z-index:1">
+        <span class="eyebrow" style="color:#fff;opacity:.85">Sifariş üçün</span>
+        <h2>Çatdırılma pulsuzdur!</h2>
+        <p>İsti yeməyiniz qapınıza qədər. Zəng edin və ya WhatsApp-dan yazın.</p>
+      </div>
+      <div class="phones">
+        <a class="phone" href="https://wa.me/994708132202"><i>✆</i> 070 813 22 02</a>
+        <a class="phone" href="https://wa.me/994708192202"><i>✆</i> 070 819 22 02</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="elaqe" style="padding-top:0">
+  <div class="wrap">
+    <span class="eyebrow">Əlaqə</span>
+    <h2>Bizi ziyarət edin</h2>
+    <div class="shopfront reveal"><img data-img="front" data-zoom alt="Dağ Ətəyi restoranının fasadı" loading="lazy"><span>Ailənizin sevimli məkanı</span></div>
+    <div class="contact" style="margin-top:30px">
+      <div class="box reveal">
+        <h3>Məlumat</h3>
+        <div class="row"><span>📞</span><p><b>070 813 22 02</b><small>Zəng / WhatsApp</small></p></div>
+        <div class="row"><span>📞</span><p><b>070 819 22 02</b><small>Zəng / WhatsApp</small></p></div>
+        <div class="row"><span>📍</span><p><b>Ünvan</b><small>İlqar Əhlimanov, Bakı 1089</small></p></div>
+        <div class="row"><span>🕘</span><p><b>İş saatları</b><small>Açılış saatı: 10:00</small></p></div>
+      </div>
+      <div class="box reveal">
+        <h3>Masa sifarişi</h3>
+        <form id="form">
+          <input required placeholder="Adınız">
+          <input required type="tel" placeholder="Telefon nömrəniz">
+          <input type="datetime-local">
+          <select><option>2 nəfər</option><option>4 nəfər</option><option>6 nəfər</option><option>8+ nəfər</option></select>
+          <button class="btn btn-red" type="submit">Göndər</button>
+          <p class="ok" id="ok">✓ Sorğunuz qeydə alındı. Tezliklə sizinlə əlaqə saxlayacağıq.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span class="logo">Dağ<b>·</b><i>Ət</i>əyi</span>
+    Ailənizin sevimli məkanı · Halallıqla xidmətinizdə<br>
+    © <span id="y"></span> Dağ Ətəyi. Bütün hüquqlar qorunur.
+  </div>
+</footer>
+
+<div class="lb" id="lb"><img id="lbimg" alt=""></div>
+
+<a class="fab" href="https://wa.me/994708132202" aria-label="WhatsApp">💬</a>
+
+<script src="./js/main.js"></script>
+
+</body>
+</html>
